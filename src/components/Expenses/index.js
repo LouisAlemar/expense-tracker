@@ -3,7 +3,7 @@ import Card from "../Card";
 
 import "./Expenses.scss";
 
-function Expenses({ items }) {
+const Expenses = ({ items }) => {
   return (
     <Card className="expenses">
       {items.map((item) => {
@@ -11,6 +11,6 @@ function Expenses({ items }) {
       })}
     </Card>
   );
-}
+};
 
 export default Expenses;
